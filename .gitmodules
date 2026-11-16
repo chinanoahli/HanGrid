@@ -1,0 +1,6 @@
+[submodule "Src/SourceHanSans"]
+	path = Src/SourceHanSans
+	url = ../SourceHanSans.git
+[submodule "Src/SourceHanMonoOldVersion"]
+	path = Src/SourceHanMonoOldVersion
+	url = ../SourceHanMonoOldVersion.git
