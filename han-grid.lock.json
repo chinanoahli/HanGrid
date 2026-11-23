@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "sans": {
+    "repository": "Src/SourceHanSans",
+    "url": "https://github.com/adobe-fonts/source-han-sans.git",
+    "version": "2.005R",
+    "commit": "6c709ca72d3d7c46ab42ebecc1a26e7d69595a37"
+  },
+  "mono": {
+    "repository": "Src/SourceHanMonoOldVersion",
+    "url": "https://github.com/adobe-fonts/source-han-mono.git",
+    "version": "1.002",
+    "commit": "4f24ea1fe8cfd63479ce64b318c78926d194e811"
+  }
+}

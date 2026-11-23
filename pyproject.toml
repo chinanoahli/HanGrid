@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "han-grid"
+version = "0.1.0"
+description = "Build fixed-grid Pan-CJK and regional Han Grid Mono fonts"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["fonttools==4.68.0"]
+
+[project.scripts]
+han-grid = "han_grid.cli:main"
+
+[tool.setuptools]
+packages = ["han_grid"]
+py-modules = ["build_mono", "build_ttf", "repair_nerd_mono"]
+
+[tool.setuptools.package-data]
+han_grid = ["fontforge_probe.py", "licenses/*.txt", "data/windows-cjk/*.json", "data/windows-cjk/*.txt"]

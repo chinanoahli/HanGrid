@@ -1,0 +1,38 @@
+# Python environments and build caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+.pytest_cache/
+.coverage
+
+# Tool state, local patcher distribution and generated output
+.han-grid/
+dist/
+Tools/
+/nerd fonts patched/
+NerdFont-Licenses/
+
+# Fonts and font collections, including custom output directories
+*.[oO][tT][fF]
+*.[tT][tT][fF]
+*.[oO][tT][cC]
+*.[tT][tT][cC]
+*.[sS][fF][dD]
+*.[wW][oO][fF][fF]
+*.[wW][oO][fF][fF]2
+
+# Generated reports, licenses, logs and temporary files
+*-manifest.json
+build-report.json
+OFL-SourceHanSans.txt
+OFL-SourceHanMono.txt
+!han_grid/licenses/OFL-SourceHanSans.txt
+!han_grid/licenses/OFL-SourceHanMono.txt
+*.log
+*.tmp
+.DS_Store
+
+*-source-differences.json
